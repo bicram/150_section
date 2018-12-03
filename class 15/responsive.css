@@ -1,0 +1,148 @@
+
+/*last class , class no 17*/
+
+
+
+
+
+
+
+
+
+
+/*its imcompletes project........unleass all of my past projects......I dont wanna put it incomplete .......*/
+/*i will definetely complete it.........its my promise*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .single-product-item {
+    height: 250px;
+    margin-bottom: 15px}
+    .single-product-item:nth-child(2) {
+    height: 520px;}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .big-menu li a {
+    
+    padding: 2px;
+    
+    padding-top: 58px;
+}
+.big-menu li {
+ 
+    font-size: 32px;   } 
+
+.single-product-item {
+    width: 31.33%;
+    /*sometimes it could be usefull hack*/
+    /*background-size: 100%*/
+    
+    
+}
+.single-product-item:nth-child(2) {
+    width: 64.33%;
+}
+.single-product-item:nth-child(4) {
+    width: 64.433333%;
+}
+.single-product-item:nth-child(9) {
+    width: 64.33%;
+}
+
+
+.promo-title span.year-text {
+   
+    left: 38%;
+    font-size: 96px;
+   
+}
+.promo-bg {
+    padding: 39px;
+    padding-bottom: 0;
+    margin-bottom: -54px;
+}
+.promo-content a.boxed-btn {
+    
+    margin-left: 50%;
+}
+p.middle {
+    text-align: center;
+}
+
+/*footer section*/
+
+.footer-menu{
+	text-align: center;
+}
+
+.footer-menu li {
+    display: inline-block;
+    padding-right: 0;
+    margin-bottom: 10px;
+    margin: 16px;
+}
+.social-links {
+    text-align: center;
+    padding: 10px 0;
+}
+.email-subscribe-form {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    /*footer section*/
+
+.footer-menu{
+	text-align: center;
+}
+
+.footer-menu li {
+    display: inline-block;
+    padding-right: 0;
+    margin-bottom: 10px;
+    margin: 16px;
+}
+.social-links {
+    text-align: center;
+    padding: 10px 0;
+}
+.email-subscribe-form {
+    text-align: center;
+}
+.email-subscribe-form  input[type="email"] {
+    margin-bottom: 20px;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	/*footer section*/
+
+
+
+
+}

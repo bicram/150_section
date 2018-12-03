@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/*some startar pack*/
+
+
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   }
+body {
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*some startar pack*/
+
+input[type="text "], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea
+{
+  background: #f9f9f9;
+  border: none;
+  padding: 15px;
+}
+
+
+
+/*style is starting from here*/
+
+.section-padding {
+  padding: 80px 0;
+}
+.white-box {
+  box-shadow: 0px 1px 14px 9px rgba(0,0,0,0.31);
+  padding: 30px
+}
+
+.white-box .contact-form input, .contact-form textarea {
+  width: 100%;
+  margin-bottom: 17px;
+}
+.contact-form textarea {
+  height: 183px;
+  resize: none;
+}
+/*overwrite korlam ........good practicew code*/
+.contact-form input[type="submit"] {
+  width: auto;margin:0;
+}
+ input[type="submit"],button[type="submit"] {
+  
+  border: none;
+  background: #4daefe;
+  padding: 10px 30px;
+  color: #ffff;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.colored-box h4, .white-box h4 {
+  font-weight: 600;
+  margin-bottom: 62px;
+  margin-top: 33px;
+}
+.colored-box {
+  background: #4daefe;
+  padding: 35px;
+  color: #fff;;
+}
+.colored-box a {
+  color: #fff;
+}.colored-box i {
+  color: #fff;
+}
+
+.contact-info {
+  position: relative;
+  line-height: 2;
+  padding-left: 53px;
+}
+.contact-info i {
+  position: ;
+  position: absolute;
+  left: 0;
+  top: 19px;
+  font-size: 23px;
+}
+.social-icons i {
+  height: 40px;
+  width: 40px;
+  color: red;
+  background: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  margin-top: 28px;
+  margin-bottom: 69px;
+}

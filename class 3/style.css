@@ -1,0 +1,98 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.video-area-bg{
+background-image: url(img/shak.jpg);
+background-color: #ddd;
+background-position: center;
+background-size: cover;
+}
+
+
+.check-icon li:before {
+   font-family: "FontAwesome";
+   content: "\f00c";
+    }
+.video-area {
+    position: relative;
+}
+
+.video-area-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 46%;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 44%;
+    right: -50px;
+    background: teal;
+    border-radius: 50%;
+    font-size: 34px;
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    padding-left: 9px;
+    margin-top: -50px;
+}
+
+ul.check-icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+.check-icon li {
+    position: relative;
+    padding-left: 36px;
+}
+
+.check-icon li:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: red;
+}
+/*amra ekhon jodi aro secetion ta aro boro korte chai tahole video-section e extra padding jog kolei  chole....gd day*/

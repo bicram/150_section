@@ -1,0 +1,202 @@
+/*@font-face {
+  font-family: 'Code bold';
+  src: url("webfonts/CODE Bold.otf");
+  src: url("webfonts/CODE Light.otf") format("embedded-opentype"), 
+  url("../webfonts/fa-regular-400.woff2") format("woff2"), 
+  url("../webfonts/fa-regular-400.woff") format("woff"), 
+  url("../webfonts/fa-regular-400.ttf") format("truetype"), 
+  url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
+*/
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #8a8a8a;
+
+}
+html,
+body { 
+   /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Playfair Display', serif;
+    height: 100%;
+    color: #8a8a8a;
+    font-size: 15px;
+    line-height: 1.714;
+
+
+ }
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.blog-meta,.load-more-btn{
+
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/*main stylesheet starts here*/
+
+.logo {
+  padding: 15px 0;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+
+    padding: 15px 0;
+}
+
+.mainmenu li {
+    padding-left: 70px;
+    display: inline-block;
+}
+
+.mainmenu a {
+  display: block;
+  text-transform: uppercase;
+  color: #998a99;
+}
+.single-blog-item .blog-featured-content img {
+
+    width: 100%;
+    margin-bottom: 95px;
+
+}
+
+.blog-featured-content img {
+  margin-top: 73px;
+}
+
+h2 {
+  padding: 17px 0;
+}
+
+.blog-readmore-btn {
+  display: block;
+  color: #beb8ab;
+  text-transform: uppercase;
+  padding-top: 24px;
+}
+
+.blog-meta a {
+  text-transform: uppercase;
+  color: #8a8a97;
+}
+.single-blog-item h2 a {
+  color: #8a8a97;
+}
+.newsletter-area {
+    background-color: #f0f0f0;
+    padding: 121px 0;
+    text-align: center;
+}
+
+.blog-readmore-btn:hover {
+  pointer: cursor;
+  color: #bebac0;
+}
+
+
+/*mail er jayga ............most crucial part of this item*/
+
+.newsletter-area h2 {
+  margin-bottom: 25px;
+}
+.newsletter-area input[type=email] {
+  /*! border-bottom: 1px solid red; */
+  width: 100%;
+  border: none;
+  background-color: #f0f0f0;
+  
+  padding: 5px 6px;
+  text-transform: uppercase;
+}
+.new-letter-form {
+  margin: 0 auto;
+  border-bottom: 1px solid;
+  width: 360px;
+  position: relative;
+}
+.new-letter-form button {
+  position: absolute;
+  background: #f0f0f0;
+  top: 0;
+  left: 83%;
+  border: none;
+}
+
+
+
+/*end*/
+
+.load-more-btn-wrapper.text-center .load-more-btn {
+  display: inline-block;
+  color: #8a8aa2;
+  border: 1px solid #8a8aa2;
+  padding: 10px 28px;
+  text-align: center;
+  font-weight: 700;
+  margin: 48px 0;
+}
+.load-more-btn-wrapper.text-center .load-more-btn:hover {
+  background-color: green;
+  border-color: red;
+}
+.footer-area {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    color: #a0a0a0;
+}
+.footer-area .container li {
+    display: inline;
+    padding-right: 29px;
+}
+.footer-area li a {
+  color: #525252;
+  display: inline;
+}
+
+.footer-area .text-right a {
+  color: #a0a0a0;
+  padding-left: 16px;
+}
+.footer-area.text-right a:hover{
+  color: white;
+};

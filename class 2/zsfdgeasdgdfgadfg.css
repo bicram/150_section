@@ -1,0 +1,25 @@
+
+.zigzagtext:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width:0;
+    height: 100%;
+    background-color: black;
+    z-index: 3;
+    transform: skew(22deg)
+}
+.section-padding .boxed-button {
+    background: red;
+    padding: 6px 12px;
+    color: white;
+}
+.zigzagtext-bg-2 .zigzagtext:after {
+    left: auto;
+    right: -100%;
+    }
+
+
+
+    

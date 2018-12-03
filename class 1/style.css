@@ -1,0 +1,100 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+.section-bg{background-image: url(img/shak.jpg);}
+
+.section-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 55%;
+    background-size: cover;
+    z-index: 2;
+}
+
+.section-padding {
+    position: relative;
+    padding: 100px 0 100px 0;
+}
+
+
+.section-bg:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    background: teal;
+    opacity: .8;
+}
+
+.section-padding .container {
+    position: relative;
+    z-index: 3;
+}
+.container input,.container textarea {
+    /* height: 100%; */
+    width: 100%;
+    padding: 14px;
+    border: 1px solid white;
+    margin-bottom: 26px;
+    color:black;
+}
+input:focus,textarea:focus,button:focus { 
+    outline: none;
+}
+
+/*jodi focus korte chai tahole 1px sollid dia color dia dite hobe,shekhetre outline none korar poriborte white co,or use kore lagbe */
+
+
+.contact-form h2 {
+    color: white;
+}
+
+.contact-form input[type="submit"] {
+    width: auto;
+    padding: 15px 45px;
+    color: teal;
+    font-weight: 700;
+}

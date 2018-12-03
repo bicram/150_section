@@ -1,0 +1,121 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.section-padding {
+    margin-top: 57px;
+}
+
+.section-title {
+    margin-bottom: 61px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-title p {
+    margin-top: 28px;
+}
+
+.section-title span {
+    color: red;
+}
+
+
+
+.pricing-compare ul li {
+    list-style: none;
+    font-size: 24px;
+    /* left: 0; */
+    line-height: 32px;
+    /* top: 0; */
+    padding-right: 59px;
+}
+.pricing-compare ul li:hover {
+    padding-right : 5px;
+    transition: .3s;
+}
+.single-pricing-box {
+    border: 1px solid green;
+    padding: 20px;
+    text-align: center;
+}
+
+.single-pricing-box h3 {
+    text-transform: uppercase;
+}
+
+
+
+.pricing-icon i {
+    font-size: 60px;
+    margin-bottom: 13px;
+}
+.pricing-icon img {
+    max-width: 104px;
+    height: 59px;
+    margin-bottom: 13px;
+}
+a.bordered-button {
+    border: 1px solid green;
+    padding: 5px 25px;
+    border-radius: 50px;
+}
+a.bordered-button:hover {
+    background-color: green;
+    border: 1px solid white;
+    transition: .3s;
+    color: #fff;
+}
+.pricing-compare {
+    margin-bottom: 29px;
+}
+
+.single-pricing-box h3.pricing-count {
+    text-transform: none;
+    margin-bottom: 26px;
+}
+.single-pricing-box:hover {
+    border-color: red;
+    box-shadow: 0 0 50px #a9a9a9;
+}
+.pricing-icon i:hover {
+    opacity: .6;
+}
+
+.pricing-icon img:hover {
+    opacity: .6;
+}

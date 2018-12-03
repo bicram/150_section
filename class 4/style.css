@@ -1,0 +1,111 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.section-padding {
+    margin-bottom: 101px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-title h2 {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 17px;
+    margin-bottom: 24px;
+}
+
+.section-title h2:before {
+    position: absolute;
+    content: "";
+    background: #e3e313;
+    bottom: 0;
+    width: 60px;
+    height: 5px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    background: #585495;
+    bottom: 0;
+    width: 20px;
+    height: 6px;
+    left: 50%;
+    margin-left: -10px;
+}
+/*inlineyr moddhe kokhono display block thakte pare na,,,,,,,,,
+a shobshomoy inline item.......
+ejonno jokhonoi a er moddhe image ba fontawossome thake tokhon obossoi
+ diaplay block kore nite hobe onnotha hole hobe na*/
+.single-service-icon {
+    text-align: center;
+}
+
+
+.single-service-icon h3 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+
+/*its a very important part to realize,otherwise it could break whole  fucking design......
+ here wwe set for the image height with its max elongation.......
+ in my personal experience i saw when developing wordpress due to this
+ condition the whole design looked ugly*/
+.service-icon-container {
+    display: table;
+    width: 100%;
+    height: 81px;
+}
+
+/*here the whole container is declared as the table element and under the tablcell its declared as tablecell*/
+
+.service-icon-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}

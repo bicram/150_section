@@ -1,0 +1,42 @@
+
+.promo-content {
+    background-color: #f8f5f5;
+    /* display: block; */
+    padding: 34px 44px;
+    height: 100%;
+}
+
+.promo-title h2 {
+    font-size: 44px;
+    color: #ef9cbb;
+}
+
+.promo-title h2 strong {
+    font-family: cursive;
+    font-size: 42px;
+}
+.product-promotion {
+    background-color: #f8f5f5;
+}
+
+.promo-content {
+    background-color: #140303;
+    /* display: block; */
+    padding: 34px 44px;
+    height: 100%;
+}
+
+.promo-title h2 {
+    font-size: 44px;
+    color: #ef9cbb;
+}
+
+.promo-title h2 strong {
+    font-family: cursive;
+    font-size: 42px;
+}
+
+
+.promo-bg {
+    background-color: #f4f0f0;
+}

@@ -1,0 +1,108 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+.service-bg1{background-image: url(img/shak.jpg);}
+.service-bg2{background-image: url(img/chalkboard.jpg);}
+.service-bg3{background-image: url(img/iphone-1.png);}
+.service-bg4{background-image: url(img/lady-guitar.jpg);}
+
+
+body {
+    color: #939191;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+    color: black;
+}
+.section-padding {
+    padding: 52px 0;
+}
+
+.section-title {
+    margin-bottom: 46px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+}
+.service-bg {
+    height: 225px;
+    background-size: cover;
+    background-position: center;
+    background-color: #9da09f;
+}
+.service-content {
+    margin: 24px 0;
+    padding: 20px;
+}
+
+
+a.service-more-btn i.fa {
+   
+    position: absolute;
+    top: 18px;
+    right: 16px;
+   
+}
+
+
+.service-content a.service-more-btn {
+    color: #28a745;
+    display: inline-block;
+    /* background-color: green; */
+    padding: 12px;
+    border-radius: 50px;
+    margin-top: 14px;
+    font-weight: 700;
+    position: relative;
+    padding-right: 36px;
+    transition: 1s;
+}
+.service-content a.service-more-btn:hover {
+    color: #f8f9fa;
+    background-color: #28a745;
+    border: 1px solid #fff;
+    padding-right: 57px;
+}
+.single-service-item:hover {
+    box-shadow: -1px 4px 19px 5px #687474;
+    transition: 2s
+}

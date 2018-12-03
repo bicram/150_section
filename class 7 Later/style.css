@@ -1,0 +1,82 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+
+}
+html,
+body { height: 100%;
+    color: #828282;
+    font-size: 15px;
+    line-height: 1.7;
+
+
+ }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.section-title h2 {
+    padding: 58px 0 0 0;
+    position: relative;
+}
+
+.section-title h2:after {
+    border: 3px solid blue;
+    position: absolute;
+    content: "";
+    width: 17%;
+    left: 0;
+    bottom: -6px;
+}
+.section-title p {
+    margin-bottom: 72px;
+}
+/*.single-staff-item img {
+    max-width: 226px;
+    min-height: 237px;
+    border-radius: 116px;
+}*/
+
+
+/*we couldnt able to give margin */ 
+.single-staff-item img {
+    max-width: 325px;
+    border-radius: 50%;
+        min-height: 337px;
+        margin-bottom: 43px;
+}
+.single-staff-item {
+    padding: 13px;
+}
+.staff-meta {
+    padding-left: 36px;
+    margin-top: 62ox;
+}

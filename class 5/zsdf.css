@@ -1,0 +1,13 @@
+.styled-faq .card {
+    border-radius: 0;
+    border: none;
+}
+.styled-faq .card-header {
+    background-color: transparent;
+    
+    border:none;
+}
+.styled-faq .accordion .card .card-header {
+    border: 1px solid red;
+    margin-bottom: 22px;
+}

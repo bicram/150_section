@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/*some startar pack*/
+
+
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   }
+body {
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*some startar pack*/
+
+input[type="text "], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea
+{
+  
+}
+
+
+
+/*style is starting from here*/
+
+
+.footer-area {
+  background-color: #14adf3;
+  padding: 45px 0;
+}
+.footer-area, .footer-area a {
+  color: whitesmoke;
+}
+.footer-area h2 {
+  margin-bottom: 49px;
+}
+.quick-links li {
+  list-style: none;
+}
+.quick-links ul li a {
+  text-align: left;
+  display: block;
+  margin-left: -40px;
+  /* list-style: none; */
+}
+.footer-area h2 {
+  text-transform: uppercase;
+}
+.address i {
+  position: absolute;
+  font-size: 21px;
+}
+.contact-info {
+    position: relative;
+    line-height: 2.1;
+    padding-left: 34px;
+}
+.contact-info i {
+    position: absolute;
+    font-size: 21px;
+    left: 0;
+    top: 6px;
+}
+
+.subscribe-us h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.address {
+    margin-bottom: 45px;
+}
+
+.subscribe-us input[type="email"],.subscribe-us input[type="submit"] {
+   
+}
+
+
+
+
+
+
+
+
+

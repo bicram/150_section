@@ -1,0 +1,494 @@
+/*@font-face {
+  font-family: 'Code bold';
+  src: url("webfonts/CODE Bold.otf");
+  src: url("webfonts/CODE Light.otf") format("embedded-opentype"), 
+  url("../webfonts/fa-regular-400.woff2") format("woff2"), 
+  url("../webfonts/fa-regular-400.woff") format("woff"), 
+  url("../webfonts/fa-regular-400.ttf") format("truetype"), 
+  url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
+*/
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+
+}
+html,
+body { 
+    font-family: 'karla',sans-serif;
+    height: 100%;
+    color: #828282;
+    font-size: 15px;
+    line-height: 1.7;
+
+
+ }
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.product-bg1{background-image: url(img/lady1.png);}
+
+.product-bg2{background-image: url(img/afgasd.png);}
+.product-bg3{background-image: url(img/2lll.png);}
+.product-bg4{background-image: url(img/3lady4nm.png);}
+.product-bg5{background-image: url(img/lady1.png);}
+.product-bg6{background-image: url(img/ld6.png);}
+.product-bg7{background-image: url(img/magifghjfg7.png);}
+.product-bg8{background-image: url(img/2lll.png);}
+.product-bg9{background-image: url(img/magi9.png);}
+.product-bg10{background-image: url(img/ld10.png);}
+.homepage-slider-wrap{background-image: url(img/background.jpg);}
+
+
+.header-top-area {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-left li {
+
+    display: inline-block;
+
+}
+.header-top-area a{
+    color:green;
+        padding: 15px;
+}
+a.menu-trigger {
+    display: none;
+}
+
+.header-right {
+    text-align: right;
+}
+
+
+.search-trigger i {
+    padding-left: 14px;
+}
+
+.homepage-slider-wrap {
+    background-color: #f1e6e4;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.homepage-slides {
+    position: relative;
+} 
+
+.sigle-slide-item img {
+    position: absolute;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    bottom: 0;
+}
+
+.slide-text-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slide-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 23%;
+    font-family: 'codelight',sans-serif;
+    font-size: 120px;
+    color: red;
+    line-height: 110px;
+    position: relative;
+    z-index: 9; 
+}
+
+/*we declared all divs 100% ..we will modify it later*/
+.homepage-slider-wrap div {
+    height: 100%;
+}
+.big-menu {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.big-menu li {
+    float: left;
+    width: 30%;
+    /* text-align: right; */
+    font-size: 50px;
+    background-color: #eaf4f4;
+    transition: .3s;
+}
+
+.big-menu li a {
+    display: block;
+    text-align: right;
+    padding: 20px;
+    color: gray;
+    padding-bottom: 0;
+    padding-top: 76px;
+}
+
+.big-menu li:nth-child(2) {
+    /* color: red; */
+    background-color: green;
+    width: 20%;
+}
+
+.big-menu li:nth-child(3) {
+    background-color: brown;
+    width: 20%;
+}
+
+.big-menu li:nth-child(4) {
+    background-color: darkgoldenrod;
+    width: 30%;
+}
+.big-menu li:hover {
+    opacity: .8;
+}
+/*13 nong class starts  from here*/
+.single-product-item {
+    height: 300px;
+    background-position: center bottom;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    width: 18%;
+    float: left;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: #f4eeed;
+}
+
+.product-list {
+    margin-left: -2%;
+    overflow: hidden;
+}
+.products-area {
+    padding-top: 100px;
+}
+.single-product-item:nth-child(2) {
+    height: 620px;
+    width: 78%;
+   
+}
+.single-product-item:nth-child(3) {
+    background-color: #e3eaea;
+}
+
+.single-product-item:nth-child(4) {
+    width: 56%;
+    background-color: #f0efeb;
+}
+
+.single-product-item:nth-child(9) {
+    width: 38%;
+    background-color:#f2e9f2
+}
+.product-top-links a {
+    color: black;
+    /* float: right; */
+    padding: 8px;
+    display: inline-block;
+}
+
+.product-top-links {
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 10px;
+
+/*we addede thois line after view button to be topper when hobveer*/
+    position: relative;
+}
+
+
+
+
+
+
+
+.product-hover >a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    border: 2px solid;
+    padding: 8px 17px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    width: 90px;
+    line-height: 25px;
+    margin-left: -45px;
+    /*before the margin was -58.....for transition effect we did it -70....them  to inpose fade effect*/
+    /*margin-top: -58px;*/
+    margin-top: -70px;
+    transition: .3s;
+}
+
+.product-bottom-info {
+    background: white;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    /* text-transform: uppercase; */
+    text-transform: uppercase;
+        padding-top: 8px;
+    /* font-size: 20px; */
+}
+
+.product-bottom-info h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product-bottom-info span.product-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: red;
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.produst-clor-box span {
+    display: inline-block;
+    border: 1px solid black;
+    width: 10px;
+    height: 11px;
+}
+
+span.produst-clor-box {
+    border-left: 1px solid green;
+    padding-left: 10px;
+}
+
+
+.produst-clor-box .product-color-white {
+    color: #c74d11;
+    border-color: #373700;
+    background-color: green;
+}
+
+.produst-clor-box .product-color-red {
+    background-color: red;
+    border-color: red;
+}
+
+.produst-clor-box .product-color-blue {
+    background-color: blue;
+    border-color: blue;
+}
+
+
+
+.product-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: .3s;
+}
+
+.product-hover:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #2f7676;
+    z-index: -1;
+    opacity: .7;
+}
+.single-product-item:hover .product-hover{
+    opacity: 1;
+
+}
+.single-product-item:hover .product-hover >a {
+    margin-top: -40px;
+}
+.single-product-item:hover .product-top-links{
+    z-index: 9999;
+}
+/*heart o arekta font awosome er design*/
+.single-product-item:hover .product-top-links >a{
+    color:red;
+}
+
+
+
+
+/*class 14 starts from here*/
+
+
+
+.load-more-product-btn {
+    display: block;
+    background-color: #f9f9f8;
+    padding: 25px;
+    font-weight: 700;
+    color: #f1aac4;
+    text-align: center;
+    margin-bottom: 38px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+.promo-bg {
+    background-color: #f4f0f0;
+}
+.product-promotion{
+    background-color: #f8f5f5;
+}
+.promo-content {
+    padding:60px 70px 50px 40px;
+    /*padding-left: 40px;*/
+}
+
+
+.promo-title h2 {
+    color: pink;
+    font-size: 39px;
+    position: relative;
+    line-height: 34px;
+    z-index:2;
+    text-transform: uppercase;
+}
+
+.promo-title h2 strong {
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.promo-title span.year-text {
+    position: absolute;
+    left: 38%;
+    top: 10%;
+    color: #d9e7ed;
+    font-size: 110px;
+    z-index: 1;
+    opacity: .6;
+}
+.promo-content p {
+    font-size: 19px;
+    /* width: 79%; */
+    line-height: 31px;
+}
+.promo-title {
+    margin-bottom: 29px;
+}
+.promo-content a.boxed-btn {
+    display: inline-block;
+    color: white;
+    background: #51abc8;
+    padding: 10px 33px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.brand-images img {
+    margin-top: 112px;
+}
+
+
+
+
+.footer-area {
+    margin-top: 60px;
+    background-color: #f4f4f4;
+    padding: 70px 0;
+}
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-menu li {
+    display: inline-block;
+    padding-right: 37px;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    padding-left: 26px;
+    font-size: 120%;
+    color: #bababa;
+    margin-bottom: 9px;
+}
+
+
+.email-subscribe-form input[type=email] {
+    background-color: #ffffff;
+    border: navajowhite;
+    padding: 3px 63px;
+    min-width: 285px;
+    color: #a8a0b0;
+    text-align: ;
+}
+input[type=submit] {
+    background: #e84f88;
+    border: none;
+    color: white;
+    padding: 3px 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/*class 15 starts from here*/
+
+
+
