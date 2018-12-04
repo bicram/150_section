@@ -3,15 +3,6 @@
 
     jQuery(document).ready(function($){
 
-  
-     $(".homepage-slides").owlCarousel({
-        items:1,
-        loop:true,
-        autoplay:false,
-        dots:true,
-        nav:false
-
-      });
 
 
 // this brackets is the ending of begginning javascript.......so dont please delete it
@@ -19,8 +10,12 @@
 
 
     jQuery(window).load(function(){
+     
+      jQuery(".project-list").isotope();
 
-        
+
+
+      // please dont delete me........otherwise I will ruin you nights!!!  
     });
 
 
