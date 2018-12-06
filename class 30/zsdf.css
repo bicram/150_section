@@ -1,0 +1,12 @@
+.colored-box .contact-info  {
+  position: relative;
+  padding-left:43px;
+  line-height: 2.1;
+}
+
+.colored-box .contact-info i {
+  position: absolute;
+  font-size: 22px;
+  padding-top: 13px;
+}
+

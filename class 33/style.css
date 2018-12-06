@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500,500i,700,700i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/*some startar pack*/
+
+
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    
+   }
+body {
+    font-family: 'Roboto', sans-serif;
+
+    color: #858586;
+
+
+}
+    
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*some startar pack*/
+
+input[type="text "], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea
+{
+  background: #f9f9f9;
+  border: none;
+  padding: 15px;
+}
+
+
+
+/*style is starting from here*/
+
+.fullwidth-bg-area{
+    background-image: url(img/computer.jpg);
+}
+.section-padding {
+    padding: 70px 0;
+}
+
+.fullwidth-bg-area {
+    margin: 70px 0;
+}
+
+.margin-minus {
+    margin: -70px 0;
+    padding: 52px;
+    font-size: 20px;
+}
+
+.dark-bg {
+    background: #2b2f41;
+    color: #fff;
+}
+
+.bordered-btn {
+    display: inline-block;
+    color: white;
+    border: 2px solid #cda973;
+    padding: 10px 30px;
+}
+.bordered-btn:hover {
+    color: #ffff;
+}
+.margin-minus .bordered-btn {
+    margin-top: 7px;
+}
+
+.boxed-content h2 {
+    font-size: 54px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.authorname:before {
+    position: absolute;
+    left: 7px;
+    height: 4px;
+    width: 47px;
+    color: red;
+    content: "";
+    background: #fff;
+    top: 15px;
+    bottom: 0;
+}
+
+.authorname {
+    position: relative;
+    padding-left: 63px;
+    text-transform: capitalize;
+}
+
+.boxed-content h4 span {
+    font-size: 58%;
+    color: #666c85;
+}
+.boxed-content {
+    position: relative;
+    padding-left: 36px;
+    padding-top: 21px;
+}
+
+.boxed-content:before {
+    position: absolute;
+    top: -4px;
+    left: -7px;
+    content: "";
+    width: 50px;
+    height: 50px;
+    /* background: green; */
+    border-top: 2px solid;
+    border-left: 2px solid;
+}
+
+.boxed-content:after {
+    position: absolute;
+    bottom: 77px;
+    right: -32px;
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-bottom: 2px solid #ffff;
+    border-right: 2px solid #fff;
+}
