@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500,500i,700,700i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/*some startar pack*/
+
+
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    
+    
+   }
+body {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+    
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*some startar pack*/
+
+input[type="text "], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea
+{
+  background: #f9f9f9;
+  border: none;
+  padding: 15px;
+}
+
+
+
+/*style is starting from here*/
+
+.single-promo-box {
+    height: 291px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: table;
+}
+
+.promo-boxes-area {
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.promo-box-table-cell {
+    display: table-cell;
+        vertical-align: middle;
+}
+
+
+.boxed-btn {
+    display: inline-block;
+    background-color: #7bbacf;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 15px 35px;
+    border-radius: 50px;
+}
+.promo-box-table-cell h2 {
+    color: #333;
+    position: relative;
+    margin-bottom: 27px;
+    font-weight: 800;
+    font-size: 25px;
+    padding-bottom: 27px;
+}
+.single-promo-box h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: #ffff;
+    content: "";
+    height: 2px;
+    width: 60px;
+    margin-left: -30px;
+}
+.single-promo-box:nth-child(2) h2, .single-promo-box:nth-child(3) h2 {
+    color: #fff;
+}
+.promo-boxes-area .single-promo-box:nth-child(2) {
+        background-color: #da879b;
+        color: #fff;
+    /* color: #fff; */
+}
+.promo-boxes-area .single-promo-box:nth-child(1){
+    color:#da879b;
+}
+.promo-boxes-area .single-promo-box:nth-child(4){
+    color:#7bbacf;
+    background-color: #fffff;
+}
+
+.promo-boxes-area .single-promo-box:nth-child(3) {
+    background-color: #7bbacf;
+    color: #ffff;
+}
+
+.promo-box-table-cell i:before {
+    font-size: 63px;
+    margin: 0;
+    padding-bottom: 0;
+}
+.single-promo-box:nth-child(1) h2:after {
+    background-color: red;
+}
+
+.single-promo-box:nth-child(4) h2:after {
+    background-color: #7bbacf;
+    /* color: #7bbacf; */
+}
+.single-promo-box:nth-child(1) .boxed-btn {
+    background-color: #da879b;
+}
+.single-promo-box:nth-child(2) .boxed-btn,
+.single-promo-box:nth-child(3) .boxed-btn {
+    background-color: #fff;
+    color:#333;
+}
+.section-title h3 {
+    font-size: 32px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #7bbacf;
+    margin-bottom: 2px;
+}
+
+.section-title h2 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 49px;
+}
+
+.right-side-content {
+    padding: 80px 52px;
+}
+
+.right-side-content h4 {
+    /* color: red; */
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+.right-side-content p {
+    color: #84848f;
+    margin-bottom: 47px;
+}
+.section-btns .boxed-btn:hover {
+    background-color: #ffff;
+    color: #7bbacf;
+    border: 1px solid #7bbacf;
+}
