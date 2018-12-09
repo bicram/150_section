@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500,500i,700,700i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/*some startar pack*/
+
+
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    
+
+   }
+body {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+    
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*some startar pack*/
+
+input[type="text "], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea
+{
+  background: #f9f9f9;
+  border: none;
+  padding: 15px;
+}
+
+
+
+/*style is starting from here*/
+.gradient-overlay-wrapper{background-image: url(img/computer.jpg);}
+.gradient-overlay-wrapper:after {background: #23156c;
+background: -moz-linear-gradient(-45deg, #23156c 0%, #ab71c5 100%);
+background: -webkit-linear-gradient(-45deg, #23156c 0%,#ab71c5 100%);
+background: linear-gradient(135deg, #23156c 0%,#ab71c5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23156c', endColorstr='#ab71c5',GradientType=1 );
+}
+.gradient-overlay-wrapper{
+    position: relative;
+    z-index: 1;
+}   
+.gradient-overlay-wrapper:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    opacity: .9;
+
+}
+.logo img {
+    position: absolute;
+    width: 204px;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo a {
+    /* color: #333; */
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    color: #fff;
+    /* padding-left: 26px; */
+    opacity: .5;
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+
+.header-area {
+    position: relative;
+    padding: 20px 0;
+}
+.header-area:after {
+    position: absolute;
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    border: 1px solid #fff;
+    opacity: .1;
+}
+
+.mainmenu li:hover a {
+    opacity: 1;
+}
+
+
+/*mobile ke dane ante */
+.mobile-content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-text {
+    max-width: 497px;
+    color: #fff;
+    padding-top: 74px;
+    padding-bottom: 94px;
+}
+.hero-text p {
+    opacity: .5;
+    margin-bottom: 51px;
+}
+.hero-text h1 {
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 43px;
+}
+.hero-buttons a {
+    display: inline-block;
+    /* margin-right: 83px; */
+    padding: 9px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.bordered-btn {
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.underlined-btn {
+    text-decoration: underline;
+}

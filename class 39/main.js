@@ -8,19 +8,19 @@
 
 
       // owl-carousel
-      $(".homepage-slides").owlCarousel({
-      	items:1,
-      	loop:true,
-      	autoplay:true,
-      	dots:true,
-      	nav:true,
-        animateOut: 'fadeOut',
-      	navText:[ "<i class='fas fa-arrow-left'></i>",  "<i class='fas fa-arrow-right'></i>"]
+      // $(".homepage-slides").owlCarousel({
+      // 	items:1,
+      // 	loop:true,
+      // 	autoplay:true,
+      // 	dots:true,
+      // 	nav:true,
+      //   animateOut: 'fadeOut',
+      // 	navText:[ "<i class='fas fa-arrow-left'></i>",  "<i class='fas fa-arrow-right'></i>"]
 
 
-      }); 
-
+      // }); 
      
+
 
 
 // please dont delete under this bruckets.........i want to sleep
